@@ -1,0 +1,41 @@
+{
+  "music": "/music/ananya/love.mp3",
+  "background": [
+    "/photos/ananya/1.jpeg",
+    "/photos/ananya/10.jpeg",
+    "/photos/ananya/11.jpeg",
+    "/photos/ananya/12.jpeg",
+    "/photos/ananya/13.jpeg",
+    "/photos/ananya/14.jpeg",
+    "/photos/ananya/15.jpeg",
+    "/photos/ananya/16.jpeg",
+    "/photos/ananya/17.jpeg",
+    "/photos/ananya/2.jpeg",
+    "/photos/ananya/3.jpeg",
+    "/photos/ananya/4.jpeg",
+    "/photos/ananya/5.jpeg",
+    "/photos/ananya/6.jpeg",
+    "/photos/ananya/7.jpeg",
+    "/photos/ananya/8.jpeg",
+    "/photos/ananya/9.jpeg"
+  ],
+  "timeline": {
+    "first-chat": [
+      "/timeline/ananya/first-chat/1.jpeg",
+      "/timeline/ananya/first-chat/2.jpeg"
+    ],
+    "first-date": [
+      "/timeline/ananya/first-date/3.jpeg",
+      "/timeline/ananya/first-date/4.jpeg"
+    ],
+    "first-meet": [
+      "/timeline/ananya/first-meet/12.jpeg"
+    ],
+    "first-trip": [
+      "/timeline/ananya/first-trip/13.jpeg"
+    ],
+    "today": [
+      "/timeline/ananya/today/11.jpeg"
+    ]
+  }
+}
