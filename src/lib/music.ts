@@ -1,4 +1,6 @@
+// @ts-ignore
 import { Howl } from "howler";
+
 
 export function getMusic(src?: string) {
   if (!src) return null;
