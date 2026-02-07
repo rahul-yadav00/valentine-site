@@ -2,7 +2,12 @@
 
 import { motion } from "framer-motion";
 
-export default function Memories({ next }) {
+type Props = {
+  next: () => void;
+  slug: string;
+};
+
+export default function Memories({ next, slug }: Props) {
   return (
     <motion.div
       initial={{ x: 100, opacity: 0 }}

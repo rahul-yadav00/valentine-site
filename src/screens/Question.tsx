@@ -3,11 +3,16 @@
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 
-export default function Question({ next }) {
-  const noRef = useRef(null);
+type Props = {
+  next: () => void;
+  slug: string;
+};
+
+export default function Question({ next, slug }: Props) {
+  const noRef = useRef<HTMLButtonElement | null>(null);
   const [pos, setPos] = useState({ x: 0, y: 0 });
 
-  const handleMouseMove = (e) => {
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!noRef.current) return;
 
     const rect = noRef.current.getBoundingClientRect();
