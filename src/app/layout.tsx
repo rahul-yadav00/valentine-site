@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import ClickHearts from "../components/ClickHearts";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,16 +24,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    
     <html lang="en">
-      
       <body
-  suppressHydrationWarning
-  className={`${geistSans.variable} ${geistMono.variable} antialiased`}
->
+        suppressHydrationWarning
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+        {/* Global click heart effect */}
+        <ClickHearts />
 
         {children}
-        
       </body>
     </html>
   );

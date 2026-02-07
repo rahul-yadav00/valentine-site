@@ -18,7 +18,8 @@ function list(dir) {
 const data = {
   music: "",
   background: [],
-  timeline: {}
+  timeline: {},
+  message: ""
 };
 
 // MUSIC
@@ -43,6 +44,13 @@ if (fs.existsSync(timelineRoot)) {
       f => `/timeline/${slug}/${section}/${f}`
     );
   });
+}
+
+// MESSAGE TXT
+const messageFile = path.join(PUBLIC, "message", slug, "message.txt");
+
+if (fs.existsSync(messageFile)) {
+  data.message = fs.readFileSync(messageFile, "utf8").trim();
 }
 
 // WRITE JSON
