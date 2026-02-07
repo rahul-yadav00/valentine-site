@@ -3,7 +3,11 @@
 import { motion } from "framer-motion";
 import { useState } from "react";
 
-export default function Final() {
+type Props = {
+  slug: string;
+};
+
+export default function Final({ slug }: Props) {
   const [yes, setYes] = useState(false);
 
   return (
