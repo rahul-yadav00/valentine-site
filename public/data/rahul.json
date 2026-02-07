@@ -1,0 +1,43 @@
+{
+  "music": "/music/rahul/love.mp3",
+  "background": [
+    "/photos/rahul/1.jpeg",
+    "/photos/rahul/10.jpeg",
+    "/photos/rahul/11.jpeg",
+    "/photos/rahul/12.jpeg",
+    "/photos/rahul/13.jpeg",
+    "/photos/rahul/14.jpeg",
+    "/photos/rahul/15.jpeg",
+    "/photos/rahul/16.jpeg",
+    "/photos/rahul/17.jpeg",
+    "/photos/rahul/2.jpeg",
+    "/photos/rahul/3.jpeg",
+    "/photos/rahul/4.jpeg",
+    "/photos/rahul/5.jpeg",
+    "/photos/rahul/6.jpeg",
+    "/photos/rahul/7.jpeg",
+    "/photos/rahul/8.jpeg",
+    "/photos/rahul/9.jpeg"
+  ],
+  "timeline": {
+    "first-chat": [
+      "/timeline/rahul/first-chat/first_meet_me - Copy (2).jpeg",
+      "/timeline/rahul/first-chat/first_meet_me - Copy (3).jpeg",
+      "/timeline/rahul/first-chat/first_meet_me - Copy.jpeg",
+      "/timeline/rahul/first-chat/first_meet_me.jpeg"
+    ],
+    "first-date": [
+      "/timeline/rahul/first-date/first_meet_me.jpeg"
+    ],
+    "first-meet": [
+      "/timeline/rahul/first-meet/first_meet_her.jpeg",
+      "/timeline/rahul/first-meet/first_meet_me.jpeg"
+    ],
+    "first-trip": [
+      "/timeline/rahul/first-trip/first_meet_me.jpeg"
+    ],
+    "today": [
+      "/timeline/rahul/today/first_meet_me.jpeg"
+    ]
+  }
+}

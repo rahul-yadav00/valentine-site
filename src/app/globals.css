@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: linear-gradient(135deg, #ffd1dc, #fff5f8);
+}
+* {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24'><path fill='%23ff4d88' d='M12 21s-6.7-4.35-9.33-7.48C.73 11.13 1.2 7.94 3.6 6.4c1.85-1.2 4.3-.87 5.93.73L12 9.6l2.47-2.47c1.63-1.6 4.08-1.93 5.93-.73c2.4 1.54 2.87 4.73.93 7.12C18.7 16.65 12 21 12 21z'/></svg>") 16 16, auto;
+}
+
+
+button,
+button:hover {
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24'><path fill='%23b30000' d='M12 21s-6.7-4.35-9.33-7.48C.73 11.13 1.2 7.94 3.6 6.4c1.85-1.2 4.3-.87 5.93.73L12 9.6l2.47-2.47c1.63-1.6 4.08-1.93 5.93-.73c2.4 1.54 2.87 4.73.93 7.12C18.7 16.65 12 21 12 21z'/></svg>") 16 16, pointer;
+}
+
